@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="rahulshettyacademy.testcomponents.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="rahulshettyacademy.testcomponents.SubmitOrderTest">
+        <methods>
+          <include name="verifyOrder"/>
+          <include name="lauchApplication"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- rahulshettyacademy.testcomponents.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
